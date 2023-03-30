@@ -1,0 +1,201 @@
+/*
+Student Name:   Hung Ka Hing
+Student Number: 3035782750
+*/
+
+* {
+	font-family: sans-serif;
+}
+
+
+header {
+	text-align: center;
+	margin: 10px;
+	padding: 1em;
+	background: linear-gradient(#adfcea, #b4fafd, #c0e5f6);
+	border-radius: 11px;
+}
+
+.content {
+	margin: 0 10%;
+}
+
+.switchPanel {
+	background: linear-gradient(to right, grey, white, grey);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 11px;
+}
+
+.switchPanel p {
+	display: inline-block;
+	font-size: 1.5rem;
+}
+
+#departureLabel {
+	text-decoration: underline;
+	
+}
+#arrivalLabel {
+	text-decoration: none;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	border-radius: 11px;
+	box-shadow: 3px 3px 5px grey;
+	background-color: white;
+	margin: 2em 0px;
+	border-collapse: separate; 
+	border-spacing: 1em 1em;
+}
+
+td {
+	vertical-align: top;
+}
+
+span.heading {
+	font-weight: bold;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	margin: 3px 13px;
+	width: 60px;
+	height: 34px;
+}
+
+.switch input { 
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 34px;
+	outline: 3px solid #add8e6;
+	background-color: transparent;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 30px;
+	width: 30px;
+	left: 2px;
+	bottom: 2px;
+	border-radius: 50%;
+	background-color: #0000ff;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider {
+	background-color: transparent;
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+#loadEarlyFlightButton, #loadMoreFlightButton {
+	color: black;
+	padding: 16px;
+	font-weight: bold;
+	border-radius: 16px;
+	border: 0px;
+	margin: 8px;
+	font-size: 16px;
+}
+
+#loadEarlyFlightButton:active, #loadMoreFlightButton:active {
+	box-shadow: 0 0 3px grey;
+	transform: translateY(4px);
+} 
+
+#loadEarlyFlightButton{
+	background-color: #ffa500;
+}
+
+
+#loadMoreFlightButton {
+	background-color: #008000;
+}
+
+/* device with width <= 1001px */
+@media only screen and (max-width : 1000px ){
+	
+	#currentCalendarDate {
+		text-align: center;
+	}
+	
+	#flightModeTitle {
+		text-align: center;
+	}
+	
+	.switchPanel p {
+		font-size: 1rem;
+	}
+	
+	table {
+		border-spacing: 0em;
+		padding: 1em;
+	}
+	
+	td {
+		display: block;
+		margin-top: 0em;
+	}
+	
+	td span.heading::before {
+		display: block;
+    	content: '\A';
+		margin-top: 1em;
+	}
+	
+	td span.info::before {
+		display: block;
+    	content: '\A';
+		margin-top: 0.5em;
+	}
+	
+	h1 {
+		font-size: 1.5rem;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
