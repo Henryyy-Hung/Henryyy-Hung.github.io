@@ -682,6 +682,12 @@
 	</div>
 
 	<script>
+		// load the api key in last use
+		let apikey = localStorage.getItem("OpenAI-API-Key");
+		if (apikey != null) {
+			document.getElementById("apikey").value = apikey;
+		}
+
 		// load the models for chat gpt
 		let modelMenu = document.getElementById("model");
 		for (let i = 0; i < models.length; i++) {
@@ -692,7 +698,6 @@
 				modelMenu.innerHTML += `<option value="${models[i]}">${models[i]}</option>`;
 			}
 		}
-		
 		
 		// containers of message grid
 		let chatMessagePanel = document.getElementsByClassName("chat-message-panel")[0];
@@ -931,6 +936,8 @@
 
 			// handle the response accroding to status code
 			if (response.status == 200) {
+
+				localStorage.setItem('OpenAI-API-Key', document.getElementById("apikey").value);
 				
 				// buffer for response text
 				let buffer = "";
