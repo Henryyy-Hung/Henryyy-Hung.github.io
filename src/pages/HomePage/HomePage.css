@@ -1,0 +1,15 @@
+.home-page {
+    width: 100%;
+    height: calc(100% + 1px);
+    min-height: 100%;
+    background: var(--primary-color-600);
+
+}
+
+.home-page::before {
+    clear: both;
+    content: "";
+    display: table;
+    margin-top: -1px;
+    height: 0;
+}

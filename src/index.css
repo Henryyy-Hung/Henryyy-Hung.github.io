@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import './assets/styles/variables.css';
+@import './assets/styles/animations.css';
+@import './assets/styles/satoshi.css';
+
+* {
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    font-family: "Satoshi-Variable";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+*::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+*::-webkit-scrollbar-track {
+    border-radius: 0.5rem;
+    background: var(--primary-color-50)
+}
+*::-webkit-scrollbar-thumb{
+    border-radius: 0.5rem;
+    background: var(--primary-color-500);
+}
+*::-webkit-scrollbar-thumb:hover{
+    background: var(--primary-color-400)
+}
+*::-webkit-scrollbar-thumb:active{
+    background: var(--primary-color-300)
+}
+
+#root {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-height: none;
+    width: 100%;
+    max-width: 100%;
 }

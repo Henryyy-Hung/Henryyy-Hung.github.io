@@ -1,0 +1,24 @@
+* {
+    --BreakerBay50: #edf4f4;
+    --BreakerBay100: #DCEAE9;
+    --BreakerBay200: #CADFDE;
+    --BreakerBay300: #B8D5D4;
+    --BreakerBay400: #A7CAC9;
+    --BreakerBay500: #95BFBE;
+    --BreakerBay600: #83B5B3;
+    --BreakerBay700: #72AAA8;
+    --BreakerBay800: #60A09D;
+    --BreakerBay900: #558E8C;
+    --BreakerBay1000: #4B7D7B;
+
+    --primary-color-50: var(--BreakerBay50);
+    --primary-color-100: var(--BreakerBay100);
+    --primary-color-200: var(--BreakerBay200);
+    --primary-color-300: var(--BreakerBay300);  
+    --primary-color-400: var(--BreakerBay400);
+    --primary-color-500: var(--BreakerBay500);
+    --primary-color-600: var(--BreakerBay600);
+    --primary-color-700: var(--BreakerBay700);
+    --primary-color-800: var(--BreakerBay800);
+    --primary-color-900: var(--BreakerBay900);
+}
