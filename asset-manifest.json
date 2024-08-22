@@ -1,8 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c06e3ad.css",
-    "main.js": "/static/js/main.12dd742c.js",
-    "static/js/453.253ccfac.chunk.js": "/static/js/453.253ccfac.chunk.js",
+    "main.css": "/static/css/main.7800dc6c.css",
+    "main.js": "/static/js/main.1b206125.js",
+    "static/media/Consolas-Italic.eot": "/static/media/Consolas-Italic.07e293a39c7dcff2dac7.eot",
+    "static/media/Consolas-Italic.ttf": "/static/media/Consolas-Italic.3bdf7ebba57f51825695.ttf",
+    "static/media/Consolas.eot": "/static/media/Consolas.a96797ab7e05ca91199e.eot",
+    "static/media/Consolas.ttf": "/static/media/Consolas.07f1f7d41a0ed94147ea.ttf",
+    "static/media/Consolas-BoldItalic.eot": "/static/media/Consolas-BoldItalic.a3c57eba906d4559cb99.eot",
+    "static/media/Consolas-BoldItalic.ttf": "/static/media/Consolas-BoldItalic.b37b3e5c834c5e4f57eb.ttf",
+    "static/media/Consolas-Bold.eot": "/static/media/Consolas-Bold.741badcbb61d66d0dbb5.eot",
+    "static/media/Consolas-Bold.ttf": "/static/media/Consolas-Bold.8bd4152fd33b2983c70e.ttf",
+    "static/media/Consolas-Italic.woff": "/static/media/Consolas-Italic.b389bd168b17815f11cd.woff",
+    "static/media/Consolas.woff": "/static/media/Consolas.9479070b326584654c2b.woff",
+    "static/media/Consolas-BoldItalic.woff": "/static/media/Consolas-BoldItalic.b50db4bbbf8479291cf8.woff",
+    "static/media/Consolas-Bold.woff": "/static/media/Consolas-Bold.d5764bcea5df5a9cc460.woff",
+    "static/media/Consolas-Italic.woff2": "/static/media/Consolas-Italic.b9e60634589786cda5bf.woff2",
+    "static/media/Consolas.woff2": "/static/media/Consolas.132b9691a44583e45423.woff2",
+    "static/media/Consolas-BoldItalic.woff2": "/static/media/Consolas-BoldItalic.7bedb2d9799ffb5aad34.woff2",
+    "static/media/Consolas-Bold.woff2": "/static/media/Consolas-Bold.f5a14942b69800f0f599.woff2",
     "static/media/Satoshi-VariableItalic.ttf": "/static/media/Satoshi-VariableItalic.9519fea9567e2405bc08.ttf",
     "static/media/Satoshi-Variable.ttf": "/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
     "static/media/Satoshi-MediumItalic.ttf": "/static/media/Satoshi-MediumItalic.5db9ec801a311bdf187b.ttf",
@@ -40,12 +55,11 @@
     "static/media/Satoshi-LightItalic.woff2": "/static/media/Satoshi-LightItalic.540a6dd2e29f70e15477.woff2",
     "static/media/Satoshi-Light.woff2": "/static/media/Satoshi-Light.df8f06167ee6fd05a131.woff2",
     "index.html": "/index.html",
-    "main.1c06e3ad.css.map": "/static/css/main.1c06e3ad.css.map",
-    "main.12dd742c.js.map": "/static/js/main.12dd742c.js.map",
-    "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
+    "main.7800dc6c.css.map": "/static/css/main.7800dc6c.css.map",
+    "main.1b206125.js.map": "/static/js/main.1b206125.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c06e3ad.css",
-    "static/js/main.12dd742c.js"
+    "static/css/main.7800dc6c.css",
+    "static/js/main.1b206125.js"
   ]
 }
